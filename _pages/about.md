@@ -1,11 +1,11 @@
 ---
----
-layout: single
-title: "About"
 permalink: /
+title: "About Zhixun Tan"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
-
 Hi there! I’m **Zhixun Tan** 👋  
 **Undergraduate at Central South University (CSU)**  
 Aspiring **AI Researcher**
@@ -58,5 +58,3 @@ School of Computer Science and Engineering
 B.S. in **Computer Science and Technology**  
 Sep 2023 – Present  
 Changsha, China
-
----
