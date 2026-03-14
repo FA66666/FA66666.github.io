@@ -43,7 +43,8 @@ I am particularly excited about exploring:
 
 ## 📫 Let’s Connect!
 
-I’m always open to discussing **AI agents, memory systems, and large language models**.
+I’m always open to discussing **AI agents, memory systems, and large language models**o r just having a chat about the future of AI. Feel free to reach out!
+
 
 ---
 
