@@ -12,11 +12,11 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Zhixun Tan"
 title_separator          : "-"
 name                     : &name "Zhixun Tan"
-description              : &description "Zhixun Tan's academic homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Zhixun Tan - Undergraduate researcher at Central South University, focusing on LLM agents, agentic memory, and context learning."
 url                      : https://FA66666.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : ""
-repository               : "https://FA66666.github.io"
+repository               : "FA66666/FA66666.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -125,7 +125,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -302,7 +302,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
 
 # Plugins
