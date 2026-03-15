@@ -51,10 +51,14 @@ I aim to build **LLM-based agent systems** that can autonomously solve complex, 
 
 ## Education
 
+<div class="education-entry" markdown="1">
+
 **Central South University** — Changsha, China
-School of Computer Science and Engineering
-B.S. in Computer Science and Technology, Sep 2023 -- Present
+<span class="edu-detail">School of Computer Science and Engineering</span>
+<span class="edu-detail">B.S. in Computer Science and Technology, Sep 2023 -- Present</span>
+
+</div>
 
 ## Contact
 
-I am always open to discussing AI agents, memory systems, and large language models. Feel free to reach out via email or through any of the links in my profile.
+Feel free to reach out via email or through any of the links in my profile. I am always open to discussion and collaboration.
