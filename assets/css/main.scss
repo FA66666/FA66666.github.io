@@ -229,63 +229,49 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* --- Research cards --- */
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1em;
-  margin: 1em 0 1.5em;
+/* --- Research Interests (academic style) --- */
+.research-list {
+  margin: 0.8em 0 1.5em;
+}
 
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
+.research-entry {
+  padding: 0.7em 0 0.7em 1.2em;
+  border-left: 3px solid var(--global-base-color, #2f7f93);
+  margin-bottom: 0.8em;
+
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
-.research-item {
-  padding: 1.3em 1.4em;
-  background: var(--global-bg-color, #fff);
-  border: 1px solid var(--global-border-color, #e5e5e5);
-  border-radius: 8px;
-  transition: all 0.25s ease;
-  position: relative;
-  overflow: hidden;
+.research-title {
+  font-weight: 600;
+  font-size: 1em;
+  color: var(--global-text-color, #303030);
+  margin-bottom: 0.25em;
+}
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: var(--global-base-color, #2f7f93);
-    opacity: 0;
-    transition: opacity 0.25s ease;
-  }
+.research-desc {
+  font-size: 0.9em;
+  line-height: 1.6;
+  color: var(--global-text-color-light, #6c757d);
+  margin-bottom: 0.4em;
+}
 
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    color: var(--global-base-color, #2f7f93);
-    font-size: 0.98em;
-    font-weight: 600;
-    letter-spacing: -0.01em;
-  }
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
 
-  p {
-    margin-bottom: 0;
-    font-size: 0.88em;
-    line-height: 1.65;
-    color: var(--global-text-color, #494e52);
-  }
-
-  &:hover {
-    border-color: var(--global-base-color, #2f7f93);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
-    transform: translateY(-2px);
-
-    &::before {
-      opacity: 1;
-    }
+  span {
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 0.15em 0.6em;
+    border-radius: 3px;
+    border: 1px solid var(--global-border-color, #ddd);
+    color: var(--global-text-color-light, #6c757d);
+    background: var(--global-code-background-color, #f8f8f8);
+    letter-spacing: 0.01em;
   }
 }
 
@@ -367,8 +353,8 @@ html {
     border-left-color: #333;
     background: none;
   }
-  .research-item {
+  .research-entry {
     break-inside: avoid;
-    border-color: #ccc;
+    border-left-color: #333;
   }
 }

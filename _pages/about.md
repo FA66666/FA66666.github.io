@@ -15,29 +15,22 @@ I am **Zhixun Tan**, an undergraduate student in the School of Computer Science 
 
 ## Research Interests
 
-<div class="research-grid" markdown="1">
-
-<div class="research-item" markdown="1">
-
-### Agent Reasoning
-Planning, reasoning, and tool use in LLM-based autonomous agents.
-
-</div>
-
-<div class="research-item" markdown="1">
-
-### Agentic Memory
-Memory architectures for experience accumulation and long-horizon decision-making.
-
-</div>
-
-<div class="research-item" markdown="1">
-
-### World Models
-World models for adaptive thinking and generalization across environments.
-
-</div>
-
+<div class="research-list">
+  <div class="research-entry">
+    <div class="research-title">Agent Reasoning</div>
+    <div class="research-desc">Planning, reasoning, and tool use in LLM-based autonomous agents.</div>
+    <div class="research-tags"><span>LLM Agents</span><span>Planning</span><span>Tool Use</span></div>
+  </div>
+  <div class="research-entry">
+    <div class="research-title">Agentic Memory</div>
+    <div class="research-desc">Memory architectures for experience accumulation and long-horizon decision-making.</div>
+    <div class="research-tags"><span>Memory</span><span>Experience Learning</span><span>Long-horizon</span></div>
+  </div>
+  <div class="research-entry">
+    <div class="research-title">World Models</div>
+    <div class="research-desc">World models for adaptive thinking and generalization across environments.</div>
+    <div class="research-tags"><span>World Models</span><span>Predictive Reasoning</span><span>Generalization</span></div>
+  </div>
 </div>
 
 ## Future Horizons
