@@ -42,12 +42,11 @@ World models for adaptive thinking and generalization across environments.
 
 ## Future Horizons
 
-I aim to build **LLM-based agent systems** that can autonomously solve complex, real-world problems — from code generation and scientific discovery to embodied decision-making. Looking ahead, I am broadly interested in:
+Toward the long-term goal of **AGI**, I aim to advance:
 
-- **Multimodal Agents** — extending agent capabilities beyond text to vision, audio, and embodied perception
-- **Scalable Memory & Self-Evolution** — enabling agents to continuously learn, reflect, and improve from experience
-- **World Models for Reasoning** — grounding agent decisions in predictive, structured representations of the environment
-- **Multi-Agent Collaboration** — designing societies of specialized agents that communicate and cooperate to tackle open-ended tasks
+- **Agentic Systems** — end-to-end architectures integrating planning, memory, and tool use for open-ended problem solving
+- **Multimodal Reasoning** — unifying vision and language for agents that perceive and act in the physical world
+- **World Models** — learning environment dynamics for predictive reasoning and robust decision-making
 
 ## Education
 
