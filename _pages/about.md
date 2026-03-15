@@ -15,28 +15,26 @@ I am **Zhixun Tan**, an undergraduate student in the School of Computer Science 
 
 ## Research Interests
 
-My research interests center on **LLM-based agent systems and agentic intelligence**.
-
 <div class="research-grid" markdown="1">
 
 <div class="research-item" markdown="1">
 
-### LLM Agents
-Studying how large language models can serve as autonomous agents capable of planning, reasoning, and interacting with complex environments.
+### Agent Reasoning
+Planning, reasoning, and tool use in LLM-based autonomous agents.
 
 </div>
 
 <div class="research-item" markdown="1">
 
 ### Agentic Memory
-Designing memory mechanisms that enable agents to accumulate experience and support long-horizon reasoning and decision-making.
+Memory architectures for experience accumulation and long-horizon decision-making.
 
 </div>
 
 <div class="research-item" markdown="1">
 
-### Context Learning
-Exploring how models dynamically construct and adapt context during reasoning to improve generalization across diverse tasks.
+### World Models
+World models for adaptive thinking and generalization across environments.
 
 </div>
 
