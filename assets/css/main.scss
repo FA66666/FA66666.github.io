@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --- Main content area --- */
 .page__content {
-  font-size: 0.95em;
+  font-size: 0.88em;
   line-height: 1.75;
   color: var(--global-text-color);
 
@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --- About intro block --- */
 .about-intro {
-  font-size: 1.05em;
+  font-size: 0.97em;
   line-height: 1.85;
   padding: 0.8em 1.2em;
   margin-bottom: 0.5em;
@@ -229,50 +229,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* --- Research Interests (academic style) --- */
-.research-list {
-  margin: 0.8em 0 1.5em;
-}
-
-.research-entry {
-  padding: 0.7em 0 0.7em 1.2em;
-  border-left: 3px solid var(--global-base-color, #2f7f93);
-  margin-bottom: 0.8em;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-
-.research-title {
-  font-weight: 600;
-  font-size: 1em;
-  color: var(--global-text-color, #303030);
-  margin-bottom: 0.25em;
-}
-
-.research-desc {
-  font-size: 0.9em;
-  line-height: 1.6;
-  color: var(--global-text-color-light, #6c757d);
-  margin-bottom: 0.4em;
-}
-
-.research-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4em;
-
-  span {
-    display: inline-block;
-    font-size: 0.75em;
-    padding: 0.15em 0.6em;
-    border-radius: 3px;
-    border: 1px solid var(--global-border-color, #ddd);
-    color: var(--global-text-color-light, #6c757d);
-    background: var(--global-code-background-color, #f8f8f8);
-    letter-spacing: 0.01em;
-  }
+/* --- Research Interests (academic) --- */
+.research-interests p {
+  margin-bottom: 0.35em;
+  line-height: 1.7;
 }
 
 /* --- Education styling --- */
@@ -353,8 +313,7 @@ html {
     border-left-color: #333;
     background: none;
   }
-  .research-entry {
+  .research-interests {
     break-inside: avoid;
-    border-left-color: #333;
   }
 }
