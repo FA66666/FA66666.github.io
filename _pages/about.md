@@ -1,57 +1,61 @@
 ---
 permalink: /
-title: "About Zhixun Tan"
+title: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Hi there! I’m **Zhixun Tan** 👋  
-Undergraduate at **Central South University (CSU)**  
-Aspiring **AI Researcher**
+<div class="about-intro" markdown="1">
 
-I am interested in building intelligent systems that can **reason, learn from experience, and act autonomously through large language models and memory-driven agents**.
+I am **Zhixun Tan**, an undergraduate student in the School of Computer Science and Engineering at **Central South University (CSU)**. My research focuses on building intelligent systems that can **reason, learn from experience, and act autonomously** through large language models and memory-driven agents.
 
----
+</div>
 
-## 🔍 Research Interests
+## Research Interests
 
-My research interests lie in **LLM Agent systems and agentic intelligence**.
+My research interests center on **LLM-based agent systems and agentic intelligence**.
 
-🧠 **LLM Agents**  
-Studying how large language models can act as autonomous agents capable of planning, reasoning, and interacting with environments.
+<div class="research-grid" markdown="1">
 
-🗂 **Agentic Memory**  
-Designing memory mechanisms that allow agents to accumulate experience and support long-horizon reasoning and decision-making.
+<div class="research-item" markdown="1">
 
-📚 **Context Learning**  
-Exploring how models dynamically construct and adapt context during reasoning to improve generalization across tasks.
+### LLM Agents
+Studying how large language models can serve as autonomous agents capable of planning, reasoning, and interacting with complex environments.
 
----
+</div>
 
-## 🚀 Future Horizons
+<div class="research-item" markdown="1">
 
-My long-term goal is to contribute to the path toward **Artificial General Intelligence (AGI)**.  
-I am particularly excited about exploring:
+### Agentic Memory
+Designing memory mechanisms that enable agents to accumulate experience and support long-horizon reasoning and decision-making.
 
-🤖 **Autonomous Agent Systems**  
-🧠 **Scalable Memory for AI Agents**  
-🌍 **Generalizable Reasoning Architectures**
+</div>
 
----
+<div class="research-item" markdown="1">
 
-## 📫 Let’s Connect!
+### Context Learning
+Exploring how models dynamically construct and adapt context during reasoning to improve generalization across diverse tasks.
 
-I’m always open to discussing **AI agents, memory systems, and large language models**o r just having a chat about the future of AI. Feel free to reach out!
+</div>
 
+</div>
 
----
+## Future Horizons
 
-## 📖 Education
+My long-term goal is to contribute to the development of **Artificial General Intelligence (AGI)**. I am particularly excited about:
 
-**Central South University**  
-School of Computer Science and Engineering  
-B.S. in **Computer Science and Technology**  
-Sep 2023 – Present  
-Changsha, China
+- **Autonomous Agent Systems** — agents that can independently solve real-world problems
+- **Scalable Memory for AI Agents** — persistent and structured memory architectures
+- **Generalizable Reasoning Architectures** — reasoning that transfers across domains
+
+## Education
+
+**Central South University** — Changsha, China
+School of Computer Science and Engineering
+B.S. in Computer Science and Technology, Sep 2023 -- Present
+
+## Contact
+
+I am always open to discussing AI agents, memory systems, and large language models. Feel free to reach out via email or through any of the links in my profile.
