@@ -44,9 +44,13 @@ World models for adaptive thinking and generalization across environments.
 
 Toward the long-term goal of **AGI**, I aim to advance:
 <div class="horizons" markdown="1">
+
 🤖 **Agentic Systems** — end-to-end architectures integrating planning, memory, and tool use for open-ended problem solving
+
 🌐 **Multimodal Reasoning** — unifying vision and language for agents that perceive and act in the physical world
+
 🧠 **World Models** — learning environment dynamics for predictive reasoning and robust decision-making
+
 </div>
 
 ## Education
