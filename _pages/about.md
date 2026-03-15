@@ -9,7 +9,7 @@ redirect_from:
 
 <div class="about-intro" markdown="1">
 
-I am **Zhixun Tan**, an undergraduate student in the School of Computer Science and Engineering at **Central South University (CSU)**. My research focuses on building intelligent systems that can **reason, learn from experience, and act autonomously** through large language models and memory-driven agents.
+I am **Zhixun Tan**, an undergraduate student in the School of Computer Science and Engineering at **Central South University (CSU)**. My research interest lies in **LLM-based agents**, exploring how to build systems that can perceive, reason, and act autonomously in complex environments.
 
 </div>
 
@@ -42,11 +42,12 @@ World models for adaptive thinking and generalization across environments.
 
 ## Future Horizons
 
-My long-term goal is to contribute to the development of **Artificial General Intelligence (AGI)**. I am particularly excited about:
+I aim to build **LLM-based agent systems** that can autonomously solve complex, real-world problems — from code generation and scientific discovery to embodied decision-making. Looking ahead, I am broadly interested in:
 
-- **Autonomous Agent Systems** — agents that can independently solve real-world problems
-- **Scalable Memory for AI Agents** — persistent and structured memory architectures
-- **Generalizable Reasoning Architectures** — reasoning that transfers across domains
+- **Multimodal Agents** — extending agent capabilities beyond text to vision, audio, and embodied perception
+- **Scalable Memory & Self-Evolution** — enabling agents to continuously learn, reflect, and improve from experience
+- **World Models for Reasoning** — grounding agent decisions in predictive, structured representations of the environment
+- **Multi-Agent Collaboration** — designing societies of specialized agents that communicate and cooperate to tackle open-ended tasks
 
 ## Education
 
