@@ -131,6 +131,9 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--global-text-color) !important;
     transition: color 0.2s ease;
     text-decoration: none !important;
+    margin-bottom: 0 !important;
+    padding-top: 0;
+    padding-bottom: 0;
 
     &:hover {
       color: var(--global-base-color) !important;
@@ -145,7 +148,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   li {
-    padding: 0.15em 0;
+    padding: 0;
+    margin-bottom: 0;
+    line-height: 1.8;
   }
 }
 
@@ -283,21 +288,44 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--global-code-background-color, #fafafa);
   border-radius: 0 6px 6px 0;
   margin: 0.5em 0 1em;
-
-  p {
-    margin-bottom: 0;
-  }
 }
 
-.edu-detail {
-  display: block;
-  font-size: 0.9em;
-  color: var(--global-text-color-light, #6c757d);
-  line-height: 1.7;
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.3em;
 }
 
-.page__content p strong:first-child {
+.edu-school {
+  font-weight: 700;
+  font-size: 1.05em;
   color: var(--global-base-color, #2f7f93);
+}
+
+.edu-year {
+  font-size: 0.88em;
+  font-weight: 600;
+  color: var(--global-text-color);
+  white-space: nowrap;
+}
+
+.edu-degree {
+  font-weight: 600;
+  font-size: 0.95em;
+  color: var(--global-text-color);
+  margin-bottom: 0.15em;
+}
+
+.edu-dept {
+  font-size: 0.88em;
+  color: var(--global-text-color-light, #6c757d);
+}
+
+/* --- Future Horizons compact --- */
+.horizons p {
+  margin-bottom: 0.3em;
+  line-height: 1.7;
 }
 
 /* --- Footer --- */

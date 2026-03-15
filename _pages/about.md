@@ -43,21 +43,21 @@ World models for adaptive thinking and generalization across environments.
 ## Future Horizons
 
 Toward the long-term goal of **AGI**, I aim to advance:
-
+<div class="horizons" markdown="1">
 🤖 **Agentic Systems** — end-to-end architectures integrating planning, memory, and tool use for open-ended problem solving
-
 🌐 **Multimodal Reasoning** — unifying vision and language for agents that perceive and act in the physical world
-
 🧠 **World Models** — learning environment dynamics for predictive reasoning and robust decision-making
+</div>
 
 ## Education
 
-<div class="education-entry" markdown="1">
-
-**Central South University** — Changsha, China
-<span class="edu-detail">School of Computer Science and Engineering</span>
-<span class="edu-detail">B.S. in Computer Science and Technology, Sep 2023 -- Present</span>
-
+<div class="education-entry">
+  <div class="edu-header">
+    <span class="edu-school">🏫 Central South University</span>
+    <span class="edu-year">2023 — Present</span>
+  </div>
+  <div class="edu-degree">B.S. in Computer Science and Technology</div>
+  <div class="edu-dept">School of Computer Science and Engineering, Changsha, China</div>
 </div>
 
 ## Contact
