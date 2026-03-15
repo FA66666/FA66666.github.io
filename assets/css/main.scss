@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 .author__bio {
   font-size: 0.85em !important;
   line-height: 1.6 !important;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
 }
 
 .author__urls-wrapper button {
@@ -140,7 +140,6 @@ h1, h2, h3, h4, h5, h6 {
 
   .icon-pad-right {
     margin-right: 0.5em;
-    color: var(--global-text-color-light);
     width: 1.1em;
     text-align: center;
   }
@@ -263,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
     font-size: 0.88em;
     line-height: 1.65;
-    color: var(--global-text-color-light, #6c757d);
+    color: var(--global-text-color, #494e52);
   }
 
   &:hover {
