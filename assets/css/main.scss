@@ -42,47 +42,51 @@
     "vendor/font-awesome/brands"
 ;
 
-/* ===== Professional Academic Homepage Styles ===== */
+/* ===== Clean Academic Homepage Styles ===== */
 
 /* --- Typography --- */
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: -0.01em;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  font-family: 'Trebuchet MS', Helvetica, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* --- Selection --- */
+::selection {
+  color: #fff;
+  background: #000;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #000;
+}
+
+/* --- Smooth scroll --- */
+html {
+  scroll-behavior: smooth;
 }
 
 /* --- Masthead (header bar) --- */
 .masthead {
-  background: rgba(255, 255, 255, 0.92) !important;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: var(--global-bg-color) !important;
   border-bottom: none !important;
 
   &::after {
-    background: rgba(0, 0, 0, 0.06) !important;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .masthead {
-    background: rgba(30, 30, 30, 0.92) !important;
-    &::after {
-      background: rgba(255, 255, 255, 0.08) !important;
-    }
+    background: var(--global-border-color) !important;
   }
 }
 
 .masthead__menu-item--lg a {
   font-weight: 700;
   font-size: 1.1em;
-  letter-spacing: -0.02em;
 }
 
 /* --- Sidebar / Author profile --- */
@@ -92,63 +96,55 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.profile_box {
+  text-align: center;
+
+  @media screen and (min-width: 1024px) {
+    text-align: left;
+  }
+}
+
 .author__avatar img {
   border-radius: 50% !important;
-  border: 3px solid var(--global-bg-color) !important;
-  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--global-border-color) !important;
+  max-width: 175px;
+  transition: transform 0.3s ease;
 
   &:hover {
     transform: scale(1.03);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   }
 }
 
 .author__name {
-  font-family: 'Inter', sans-serif !important;
   font-weight: 700 !important;
-  font-size: 1.15em !important;
-  letter-spacing: -0.02em;
+  font-size: 1.1em !important;
 }
 
 .author__bio {
   font-size: 0.85em !important;
-  line-height: 1.6 !important;
+  line-height: 1.5 !important;
   color: var(--global-text-color);
 }
 
 .author__urls-wrapper button {
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 0.82em;
-  border-radius: 6px;
-  padding: 0.4em 1em;
+  border-radius: 4px;
 }
 
 .author__urls {
   a {
     font-size: 0.88em !important;
-    color: var(--global-text-color) !important;
-    transition: color 0.2s ease;
+    color: inherit !important;
     text-decoration: none !important;
-    margin-bottom: 0 !important;
-    padding-top: 0;
-    padding-bottom: 0;
 
     &:hover {
-      color: var(--global-base-color) !important;
-      text-decoration: none !important;
+      text-decoration: underline !important;
     }
   }
 
-  .icon-pad-right {
-    margin-right: 0.5em;
-    width: 1.1em;
-    text-align: center;
-  }
-
   li {
-    padding: 0;
+    white-space: nowrap;
     margin-bottom: 0;
     line-height: 2;
   }
@@ -164,132 +160,104 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --- Page title --- */
 .page__title {
-  font-size: 1.6em !important;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  color: var(--global-text-color);
+  display: none;
 }
 
 /* --- Main content area --- */
 .page__content {
-  font-size: 0.88em;
-  line-height: 1.75;
+  font-size: 0.95em;
+  line-height: 1.6;
   color: var(--global-text-color);
 
+  h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
   h2 {
-    font-size: 1.25em;
-    font-weight: 600;
-    color: var(--global-text-color);
-    border-bottom: 2px solid var(--global-base-color);
-    padding-bottom: 0.35em;
-    margin-top: 2.5em;
-    margin-bottom: 0.8em;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
   }
 
   h3 {
-    font-size: 1.05em;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
   }
 
   a {
-    color: var(--global-base-color);
+    color: #224b8d;
     text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s ease;
 
     &:hover {
-      border-bottom-color: var(--global-base-color);
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 
-  ul li {
-    margin-bottom: 0.6em;
-    line-height: 1.7;
+  /* Blockquote intro style */
+  blockquote {
+    border-left: 4px solid #ddd;
+    padding: 0.5em 1em;
+    margin: 0.8em 0;
+    color: var(--global-text-color);
+    background: transparent;
+    font-style: normal;
+
+    p {
+      margin-bottom: 0.5em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    table {
+      margin-bottom: 0.5em;
+
+      td {
+        padding: 0 0.3em;
+        border: none;
+        font-weight: 600;
+      }
+    }
+  }
+
+  /* HR divider */
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 1.5em 0;
+  }
+
+  ul {
+    li {
+      margin-bottom: 0.8em;
+      line-height: 1.6;
+    }
   }
 
   > p {
-    margin-bottom: 1.4em;
+    margin-bottom: 1em;
   }
-}
 
-/* --- About intro block --- */
-.about-intro {
-  font-size: 0.97em;
-  line-height: 1.85;
-  padding: 0.8em 1.2em;
-  margin-bottom: 0.5em;
-  background: linear-gradient(135deg, rgba(47, 127, 147, 0.04), rgba(47, 127, 147, 0.08));
-  border-left: 3px solid var(--global-base-color, #2f7f93);
-  border-radius: 0 8px 8px 0;
-  color: var(--global-text-color);
-
-  p {
-    margin-bottom: 0;
+  /* Publication items */
+  ul li small {
+    display: block;
+    color: var(--global-text-color-light, #6c757d);
+    line-height: 1.5;
+    margin-top: 0.3em;
   }
-}
-
-/* --- Research Interests (academic) --- */
-.research-interests p {
-  margin-bottom: 0.35em;
-  line-height: 1.7;
-}
-
-/* --- Education styling --- */
-.education-entry {
-  padding: 1em 1.4em;
-  border-left: 3px solid var(--global-base-color, #2f7f93);
-  background: var(--global-code-background-color, #fafafa);
-  border-radius: 0 6px 6px 0;
-  margin: 0.5em 0 1em;
-}
-
-.edu-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 0.3em;
-}
-
-.edu-school {
-  font-weight: 700;
-  font-size: 1.05em;
-  color: var(--global-base-color, #2f7f93);
-}
-
-.edu-year {
-  font-size: 0.88em;
-  font-weight: 600;
-  color: var(--global-text-color);
-  white-space: nowrap;
-}
-
-.edu-degree {
-  font-weight: 600;
-  font-size: 0.95em;
-  color: var(--global-text-color);
-  margin-bottom: 0.15em;
-}
-
-.edu-dept {
-  font-size: 0.88em;
-  color: var(--global-text-color-light, #6c757d);
-}
-
-/* --- Future Horizons compact --- */
-.horizons p {
-  margin-bottom: 0.3em;
-  line-height: 1.7;
 }
 
 /* --- Footer --- */
 .page__footer {
   border-top: 1px solid var(--global-border-color) !important;
   background-color: var(--global-bg-color) !important;
-
-  a {
-    transition: color 0.2s ease;
-  }
 }
 
 .page__footer-copyright {
@@ -297,23 +265,9 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.7;
 }
 
-/* --- Smooth scroll --- */
-html {
-  scroll-behavior: smooth;
-}
-
-/* --- Selection highlight --- */
-::selection {
-  background: rgba(47, 127, 147, 0.15);
-}
-
 /* --- Print cleanup --- */
 @media print {
-  .about-intro {
-    border-left-color: #333;
-    background: none;
-  }
-  .research-interests {
-    break-inside: avoid;
+  .sidebar {
+    display: none;
   }
 }
