@@ -45,7 +45,7 @@ I'm always open to **collaborating on innovative projects** or just having a cha
 
 - **Preserving Smoothness in Dynamic Point-Feature Labeling**
   <br/>**Zhixun Tan** et al.
-  <br/>*IEEE VIS 2026 (CCF-A) — Under Review*
+  <br/>*IEEE TVCG 2026 (CCF-A) — Under Review*
   <br/><small>A shortest-path-based framework on candidate graphs with sliding-window conflict resolution that guarantees collision-free, temporally smooth label transitions for moving point features.</small>
 
 - **Preserving Identifiability in Overlap-Tolerant Point-Feature Label Placement**
