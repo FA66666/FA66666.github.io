@@ -45,17 +45,23 @@
 /* ===== Clean Academic Homepage Styles ===== */
 
 /* --- Typography --- */
+html {
+  font-size: 15px;
+}
+
 body {
   font-family: 'Trebuchet MS', Helvetica, -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
+  font-size: 0.93em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Trebuchet MS', Helvetica, -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: bold;
   line-height: 1.2;
+  margin: 0.8em 0 0.4em;
 }
 
 /* --- Selection --- */
@@ -165,29 +171,29 @@ html {
 
 /* --- Main content area --- */
 .page__content {
-  font-size: 0.95em;
-  line-height: 1.6;
+  font-size: 0.88em;
+  line-height: 1.4;
   color: var(--global-text-color);
 
   h1 {
     font-size: 1.4em;
     font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
   }
 
   h2 {
     font-size: 1.2em;
     font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
   }
 
   h3 {
     font-size: 1em;
     font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
   }
 
   a {
@@ -202,14 +208,14 @@ html {
   /* Blockquote intro style */
   blockquote {
     border-left: 4px solid #ddd;
-    padding: 0.5em 1em;
-    margin: 0.8em 0;
+    padding: 0.4em 0.8em;
+    margin: 0.6em 0;
     color: var(--global-text-color);
     background: transparent;
     font-style: normal;
 
     p {
-      margin-bottom: 0.5em;
+      margin-bottom: 0.3em;
 
       &:last-child {
         margin-bottom: 0;
@@ -217,7 +223,7 @@ html {
     }
 
     table {
-      margin-bottom: 0.5em;
+      margin-bottom: 0.3em;
 
       td {
         padding: 0 0.3em;
@@ -231,26 +237,26 @@ html {
   hr {
     border: none;
     border-top: 1px solid #ddd;
-    margin: 1.5em 0;
+    margin: 1em 0;
   }
 
   ul {
     li {
-      margin-bottom: 0.8em;
-      line-height: 1.6;
+      margin-bottom: 0.5em;
+      line-height: 1.4;
     }
   }
 
   > p {
-    margin-bottom: 1em;
+    margin-bottom: 0.6em;
   }
 
   /* Publication items */
   ul li small {
     display: block;
     color: var(--global-text-color-light, #6c757d);
-    line-height: 1.5;
-    margin-top: 0.3em;
+    line-height: 1.3;
+    margin-top: 0.2em;
   }
 }
 
