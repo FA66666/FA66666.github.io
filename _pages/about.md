@@ -13,25 +13,21 @@ redirect_from:
 
 > | Undergraduate at Central South University (CSU) | AI Researcher |
 >
-> My recent work, under the mentorship of [**Qiang Chen**](https://scholar.google.com/citations?hl=zh-CN&user=-8DdIhkAAAAJ&view_op=list_works), focuses on **LLM-based autonomous agents**, especially how planning, memory, and world understanding can be integrated into reliable long-horizon systems.
+> My recent work, under the mentorship of [**Qiang Chen**](https://scholar.google.com/citations?hl=zh-CN&user=-8DdIhkAAAAJ&view_op=list_works), focuses on explicit, failure-aware, and context-budgeted strategy coordination for continual multi-agent adaptation through signed memory cards.
 
 ---
 
 ### 🔍 Research Interests
 
-My research focuses on **LLM-based autonomous agents**, with emphasis on:
+My research focuses on LLM-based autonomous agents, with emphasis on:
 
 - 🔬 **Agent Reasoning** — Planning, reasoning, and tool use in LLM-based autonomous agents
 - 🧩 **Agentic Memory** — Memory architectures for experience accumulation and long-horizon decision-making
 - 🌍 **World Models** — World models for adaptive thinking and generalization across environments
 
-### 🚀 Current Work
+### 🚀 Recent Work
 
-I am currently interested in building agentic systems that can:
-
-- maintain coherent reasoning across long-horizon tasks
-- retrieve and use experience through effective memory mechanisms
-- adapt to changing environments with structured world understanding
+My recent work focuses on explicit, failure-aware, and context-budgeted strategy coordination for continual multi-agent adaptation through signed memory cards.
 
 ---
 

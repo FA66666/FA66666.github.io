@@ -85,8 +85,7 @@ html[data-theme="dark"] body.homepage {
 }
 
 body.homepage .masthead {
-  background: rgba(251, 249, 244, 0.92) !important;
-  backdrop-filter: blur(10px);
+  background: #fbf9f4 !important;
   border-bottom: none !important;
 
   &::after {
@@ -95,7 +94,15 @@ body.homepage .masthead {
 }
 
 html[data-theme="dark"] body.homepage .masthead {
-  background: rgba(16, 22, 29, 0.92) !important;
+  background: #111822 !important;
+}
+
+body.homepage .greedy-nav,
+body.homepage .greedy-nav button,
+body.homepage .greedy-nav .visible-links,
+body.homepage .greedy-nav .visible-links li,
+body.homepage .greedy-nav .hidden-links {
+  background: transparent !important;
 }
 
 body.homepage .masthead__inner-wrap {
@@ -104,7 +111,7 @@ body.homepage .masthead__inner-wrap {
 }
 
 body.homepage .masthead__menu-item {
-  background: transparent;
+  background: inherit;
 }
 
 body.homepage .masthead__menu-item--lg a {
@@ -124,7 +131,7 @@ body.homepage #theme-toggle a {
 }
 
 body.homepage #main {
-  margin-top: 2rem;
+  margin-top: 1.35rem;
 
   @include breakpoint($x-large) {
     max-width: 1180px;
@@ -132,10 +139,10 @@ body.homepage #main {
 }
 
 body.homepage .sidebar {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 
   @include breakpoint($large) {
-    padding-top: calc(#{$masthead-height} + 0.9rem);
+    padding-top: calc(#{$masthead-height} + 0.55rem);
   }
 }
 
@@ -148,7 +155,7 @@ body.homepage .profile_box {
 }
 
 body.homepage .author__avatar img {
-  max-width: 190px;
+  max-width: 168px;
   border-radius: 16px !important;
   border: 1px solid var(--home-border) !important;
 }
@@ -156,18 +163,18 @@ body.homepage .author__avatar img {
 body.homepage .author__name {
   color: var(--home-text);
   font-family: "Lora", Georgia, serif;
-  font-size: 1.5rem !important;
+  font-size: 1.16rem !important;
   font-weight: 600 !important;
 }
 
 body.homepage .author__bio {
   color: var(--home-muted);
-  font-size: 0.94rem !important;
-  line-height: 1.65 !important;
+  font-size: 0.76rem !important;
+  line-height: 1.45 !important;
 }
 
 body.homepage .author__urls-wrapper {
-  margin-top: 1rem;
+  margin-top: 0.7rem;
 }
 
 body.homepage .author__urls {
@@ -201,13 +208,61 @@ body.homepage .author__urls {
   .fab,
   .ai {
     color: var(--home-accent);
+    display: inline-flex;
+    font-size: 0.76rem;
+    min-width: 1.25rem;
+    justify-content: center;
+    line-height: 1;
+    opacity: 1;
+    overflow: visible;
+    position: relative;
+    text-align: center;
+    text-rendering: geometricPrecision;
+    transform: scale(1.42);
+    transform-origin: center;
+    vertical-align: middle;
+    visibility: visible;
+    z-index: 1;
   }
 }
 
 body.homepage .author__urls li,
 body.homepage .author__urls li a {
-  line-height: 1.7 !important;
+  align-items: center;
+  display: inline-flex;
+  font-size: 0.76rem !important;
+  line-height: 1.42 !important;
 }
+
+body.homepage .author__urls .icon-pad-right {
+  margin-right: 0.38rem;
+}
+
+body.homepage .sidebar-icon {
+  color: var(--home-accent);
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 1rem;
+  justify-content: center;
+  margin-right: 0.38rem;
+  position: relative;
+  top: 0.01rem;
+  vertical-align: middle;
+  width: 1rem;
+}
+
+body.homepage .sidebar-icon svg {
+  display: block;
+  fill: none;
+  height: 100%;
+  overflow: visible;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+  width: 100%;
+}
+
 
 body.homepage .page__title {
   display: none;
@@ -215,8 +270,8 @@ body.homepage .page__title {
 
 body.homepage .page__content {
   color: var(--home-text);
-  font-size: 1rem;
-  line-height: 1.85;
+  font-size: 0.82rem;
+  line-height: 1.56;
 
   h1,
   h2,
@@ -228,28 +283,28 @@ body.homepage .page__content {
   }
 
   h1 {
-    font-size: clamp(1.95rem, 4vw, 2.45rem);
+    font-size: clamp(1.34rem, 2.8vw, 1.62rem);
     margin-top: 0;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.42rem;
   }
 
   h2 {
-    font-size: clamp(1.55rem, 3vw, 1.9rem);
+    font-size: clamp(1.12rem, 2.1vw, 1.32rem);
   }
 
   h3 {
-    font-size: 1.28rem;
-    margin-top: 1.4rem;
-    margin-bottom: 0.65rem;
+    font-size: 0.9rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.28rem;
   }
 
   p,
   li {
-    font-size: 1rem;
+    font-size: 0.82rem;
   }
 
   p {
-    margin-bottom: 0.95rem;
+    margin-bottom: 0.52rem;
   }
 
   a {
@@ -268,11 +323,11 @@ body.homepage .page__content {
     border-radius: 0 10px 10px 0;
     color: var(--home-text);
     font-style: normal;
-    margin: 1rem 0 1.25rem;
-    padding: 0.75rem 1rem;
+    margin: 0.55rem 0 0.72rem;
+    padding: 0.42rem 0.65rem;
 
     p {
-      margin-bottom: 0.45rem;
+      margin-bottom: 0.25rem;
 
       &:last-child {
         margin-bottom: 0;
@@ -280,12 +335,12 @@ body.homepage .page__content {
     }
 
     table {
-      margin-bottom: 0.35rem;
+      margin-bottom: 0.2rem;
 
       td {
         border: 0;
         font-weight: 600;
-        padding: 0 0.5rem 0 0;
+        padding: 0 0.4rem 0 0;
       }
     }
   }
@@ -293,21 +348,22 @@ body.homepage .page__content {
   hr {
     border: 0;
     border-top: 1px solid var(--home-border);
-    margin: 1.6rem 0;
+    margin: 0.8rem 0;
   }
 
   ul {
-    margin-top: 0.3rem;
+    margin-top: 0.15rem;
 
     li {
-      margin-bottom: 0.55rem;
-      line-height: 1.75;
+      margin-bottom: 0.22rem;
+      line-height: 1.42;
     }
   }
 
   small {
     color: var(--home-muted);
-    line-height: 1.65;
+    font-size: 0.74rem;
+    line-height: 1.35;
   }
 }
 
@@ -319,9 +375,9 @@ body.homepage .page__footer {
 
 body.homepage .page__footer-copyright {
   border-top: 1px solid var(--home-border);
-  font-size: 0.8rem !important;
+  font-size: 0.72rem !important;
   opacity: 1;
-  padding-top: 1rem;
+  padding-top: 0.75rem;
 }
 
 @media print {
